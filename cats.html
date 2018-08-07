@@ -1,0 +1,49 @@
+<script src="java.js"></script>
+<link rel="stylesheet" type = "text/css" href="style.css">
+<div class="main">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <h1> Cats </h1>
+    <div class="topnav" id="myTopnav">
+  <link href='https://fonts.googleapis.com/css?family=Coming Soon' rel='stylesheet'>
+  <a href="index.html" class="active">Home</a>
+  <a href="cats.html">Cats</a>
+  <a href="dogs.html">Dogs</a>
+  <a href="pandas.html">Pandas</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+    </div>
+    
+  </head>
+ 
+  <div id="Cats" class="tabcontent">
+    <h2 id = "catfacts">Cool cat facts!</h2>
+    <p id = "catfacts">Cats can see at a sixth of the light levels needed for humans to see. </p>
+    <p id = "catfacts">The Egyptian Mau is the fastest cat in the world, with speeds up to 30 mph. </p>
+    <div class = "egyptiancat">
+    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Egyptian_Mau_Bronze.jpg/1200px-Egyptian_Mau_Bronze.jpg" class = "egyptiancat" alt = "egyptiancat" style = "width:200px"; "float:right">
+    <div class="middle">
+      <div class="text">An Egyptian Mau</div>
+    </div>
+    </div>
+    <p id = "cafewords">The first cat cafe opened in Taiwan in 1998. Since <br> then, cat cafes have been opening around the world.</p>
+    <div class = "catcafe">
+    <img src = "http://www.nakedmadrid.com/wp-content/uploads/2017/10/19250595_347163215705008_9107887813586106886_o-1050x700.jpg" class = "catcafe" alt = "catcafe" style = "width:220px"; "float:left">
+    <div class = "middletwo">
+      <div class = "texttwo"> A cat cafe in Madrid</div>
+      </div>
+    </div>
+    <p id = "cafewords"> Cats are the second most popular pet in the <br>United States. </p>
+ 
+</div>
+  <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>

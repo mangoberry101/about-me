@@ -1,0 +1,51 @@
+<script src="java.js"></script>
+<link rel="stylesheet" type = "text/css" href="style.css">
+<div class="main">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <h1> Dogs </h1>
+    <div class="topnav" id="myTopnav">
+  <link href='https://fonts.googleapis.com/css?family=Coming Soon' rel='stylesheet'>
+  <a href="index.html" class="active">Home</a>
+  <a href="cats.html">Cats</a>
+  <a href="dogs.html">Dogs</a>
+  <a href="pandas.html">Pandas</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+    </div>   
+    
+  </head>
+ 
+  <div id="Dogs" class="tabcontent">
+    <h2 id = "words">Man's Best Friend </h2>
+    <img src ="https://drive.google.com/uc?id=1_0ne0Mq1I05ZwtmD_Xmr21auD6AR4fJE" class = "harley" alt = "harley" style = "width:200px">
+    <p id = "words">This is Harley! He's my dog. </p>
+    <p id = "tinydogwords"> The smallest known dog is a Yorkshire Terrier. </p>
+    <div class = "tinydog">
+    <img src = "https://i.pinimg.com/originals/48/0a/97/480a97cc8e86235989103c5b19ffa196.jpg" class = "tinydog" alt = "tinydog">
+    <div class = "middlee">
+      <div class = "textt"> Lucy is only 2.5 inches long. </div>
+      </div>
+    </div>
+    <p id = "largedogwords"> The largest dog is a Great Dane. </p>
+    <div class = "largedog">
+      <img src = "https://laughingsquid.com/wp-content/uploads/2017/01/freddy.jpg" class = "largedog" alt = "largedog">
+      <div class = "MIDDDLE">
+        <div class = "TEEXT"> Freddy is 7' 6"! Way taller than us. </p>
+      </div>
+    </div>
+  </div>
+  </div>
+ 
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>

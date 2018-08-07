@@ -1,0 +1,37 @@
+<script src="java.js"></script>
+<link rel="stylesheet" type = "text/css" href="style.css">
+<div class="main">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <h1> Pandas </h1>
+    <div class="topnav" id="myTopnav">
+  <link href='https://fonts.googleapis.com/css?family=Coming Soon' rel='stylesheet'>
+  <a href="index.html" class="active">Home</a>
+  <a href="cats.html">Cats</a>
+  <a href="dogs.html">Dogs</a>
+  <a href="pandas.html">Pandas</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+    </div>
+    
+  </head>
+ 
+  <div id="Pandas" class="tabcontent">
+    <h2> Fuzzy Pandas!</h2>
+    <p>There are two subspecies of pandas: the regular giant panda and the Qinling panda.</p>
+    <img src = http://kids.sandiegozoo.org/sites/default/files/2017-04/animal-hero-panda3.jpg class = "giantpanda" alt = "giantpanda" style = "height:230px; float:left">
+    <img src = http://p1.img.cctvpic.com/photoAlbum/photo/2017/03/31/PHOT2Y4xB47khwm2g8jVkf7X170331_920x700.jpg class = "qinling" alt = "qingling" style = "height:230px">
+  </div>
+ 
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>

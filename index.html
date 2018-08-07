@@ -1,0 +1,40 @@
+<script src="java.js"></script>
+<link rel="stylesheet" type = "text/css" href="style.css">
+<div class="main">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <h1> Home </h1>
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <link href='https://fonts.googleapis.com/css?family=Coming Soon' rel='stylesheet'>
+  <a href="index.html" class="active">Home</a>
+  <a href="cats.html">Cats</a>
+  <a href="dogs.html">Dogs</a>
+  <a href="pandas.html">Pandas</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    <!info about the page>
+  </head>
+  <body>
+    <!content seen on page>
+    <h2 class = "hi">Hi! My name is Jessica and I'm 15. <img src="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg" class = "cat" alt="cat" style = "width:250px; float:right">
+      I really like cats! <img src="https://media3.giphy.com/media/tN1YiOeZmIRKE/giphy-downsized_s.gif" class = "pusheen" alt="pusheen" style = "width:136px">
+      <p> Unfortunately, I don't have any cats. :(
+      </p> 
+    </h2>
+  </body>
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
